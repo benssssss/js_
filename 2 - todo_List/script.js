@@ -20,7 +20,7 @@ function addTask(){
     saveData();
 }
 
-listContainer.addEventListener("click", function(e){
+listContainer.addEventListener("click", (e) => {
     if(e.target.tagName === "LI"){
         e.target.classList.toggle("checked");
         saveData();
@@ -42,3 +42,5 @@ function showTask(){
 }
 
 showTask();
+
+
