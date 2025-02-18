@@ -1,0 +1,26 @@
+#appBtnChat {
+    background-color: #E69138;
+    height: 100px;
+    width: 100px;
+    display: block;
+    cursor: pointer;
+}
+
+.box {
+    width: 175px;
+    height: 175px;
+    background-color: #4E8793;
+    display: block;
+    color: aliceblue;
+    padding: 1rem;
+    margin-top: 10px;
+}
+
+#closeBtnChat {
+    background-color: #A8527C;
+    color: aliceblue;
+    height: 100px;
+    width: 100px;
+    display: block;
+    cursor: pointer;
+}
