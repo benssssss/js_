@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card,
+.personalInfo,
+.info,
+.info-text,
+.script-box {
+    display: flex;
+}
+
+.card {
+    background-color: aquamarine;
+    height: 300px;
+    width: 900px;
+
+}
+
+.text {
+    padding: 2.3rem;
+}
+
+.title {
+    font-size: .7rem;
+}
+
+.desc {
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.personalInfo {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    position: relative;
+}
+
+.info-text {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.script-box {
+    align-items: center;
+    gap: .5rem;
+    background-color: cornflowerblue;
+    width: 200px;
+    justify-content: center;
+    position: absolute;
+    bottom: 70px;
+    right: -50px;
+    display: none;
+}
+
+.script-block {
+    display: block;
+}
